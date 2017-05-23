@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204C24466F39734459FCA1AE /* Pods_InVisionSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2041480F7468C4A5C194C31 /* Pods_InVisionSwiftTests.framework */; };
+		89ED56B695AD1EFF0AD83476 /* Pods_InVisionSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323D2937FE0197D0D2CF437E /* Pods_InVisionSwiftUITests.framework */; };
+		B68EBF4E1ED416A300AFA084 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EBF4B1ED416A300AFA084 /* ConnectionManager.swift */; };
+		B68EBF4F1ED416A300AFA084 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EBF4C1ED416A300AFA084 /* Utilities.swift */; };
+		B68EBF501ED416A300AFA084 /* DashboardTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EBF4D1ED416A300AFA084 /* DashboardTransitionAnimator.swift */; };
+		B68EBF521ED4179C00AFA084 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EBF511ED4179C00AFA084 /* SignInViewController.swift */; };
 		B699E1251ED387B80023D378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E1241ED387B80023D378 /* AppDelegate.swift */; };
 		B699E1271ED387B80023D378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E1261ED387B80023D378 /* ViewController.swift */; };
 		B699E12A1ED387B80023D378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699E1281ED387B80023D378 /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		B699E12F1ED387B80023D378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699E12D1ED387B80023D378 /* LaunchScreen.storyboard */; };
 		B699E13A1ED387B80023D378 /* InVisionSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E1391ED387B80023D378 /* InVisionSwiftTests.swift */; };
 		B699E1451ED387B80023D378 /* InVisionSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699E1441ED387B80023D378 /* InVisionSwiftUITests.swift */; };
+		E8E8B30F54935FE55B6351D5 /* Pods_InVisionSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8889FF6C7ED4D22D490FD0 /* Pods_InVisionSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0797CFFFC41CF8767315BF91 /* Pods-InVisionSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVisionSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InVisionSwiftUITests/Pods-InVisionSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		323D2937FE0197D0D2CF437E /* Pods_InVisionSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InVisionSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D31B8F39243EEC0256554E /* Pods-InVisionSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVisionSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InVisionSwift/Pods-InVisionSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6414F686A9A898A9DFF6A9CB /* Pods-InVisionSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVisionSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InVisionSwiftUITests/Pods-InVisionSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6EFAC98494ECBD1434249A65 /* Pods-InVisionSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVisionSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InVisionSwiftTests/Pods-InVisionSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E8889FF6C7ED4D22D490FD0 /* Pods_InVisionSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InVisionSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68EBF4B1ED416A300AFA084 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		B68EBF4C1ED416A300AFA084 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B68EBF4D1ED416A300AFA084 /* DashboardTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTransitionAnimator.swift; sourceTree = "<group>"; };
+		B68EBF511ED4179C00AFA084 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B699E1211ED387B80023D378 /* InVisionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InVisionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B699E1241ED387B80023D378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B699E1261ED387B80023D378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,9 @@
 		B699E1401ED387B80023D378 /* InVisionSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InVisionSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B699E1441ED387B80023D378 /* InVisionSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InVisionSwiftUITests.swift; sourceTree = "<group>"; };
 		B699E1461ED387B80023D378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE1FB8B7249DEE7B51836E5 /* Pods-InVisionSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVisionSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-InVisionSwift/Pods-InVisionSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C1C761A9D2C72E2E1B349654 /* Pods-InVisionSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVisionSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InVisionSwiftTests/Pods-InVisionSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2041480F7468C4A5C194C31 /* Pods_InVisionSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InVisionSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E8B30F54935FE55B6351D5 /* Pods_InVisionSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204C24466F39734459FCA1AE /* Pods_InVisionSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89ED56B695AD1EFF0AD83476 /* Pods_InVisionSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0459D44B1CB349654DA570E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59D31B8F39243EEC0256554E /* Pods-InVisionSwift.debug.xcconfig */,
+				BCE1FB8B7249DEE7B51836E5 /* Pods-InVisionSwift.release.xcconfig */,
+				C1C761A9D2C72E2E1B349654 /* Pods-InVisionSwiftTests.debug.xcconfig */,
+				6EFAC98494ECBD1434249A65 /* Pods-InVisionSwiftTests.release.xcconfig */,
+				0797CFFFC41CF8767315BF91 /* Pods-InVisionSwiftUITests.debug.xcconfig */,
+				6414F686A9A898A9DFF6A9CB /* Pods-InVisionSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A2E34B3088918688F093132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E8889FF6C7ED4D22D490FD0 /* Pods_InVisionSwift.framework */,
+				D2041480F7468C4A5C194C31 /* Pods_InVisionSwiftTests.framework */,
+				323D2937FE0197D0D2CF437E /* Pods_InVisionSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B68EBF4A1ED4169300AFA084 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B68EBF4B1ED416A300AFA084 /* ConnectionManager.swift */,
+				B68EBF4C1ED416A300AFA084 /* Utilities.swift */,
+				B68EBF4D1ED416A300AFA084 /* DashboardTransitionAnimator.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		B699E1181ED387B80023D378 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +137,8 @@
 				B699E1381ED387B80023D378 /* InVisionSwiftTests */,
 				B699E1431ED387B80023D378 /* InVisionSwiftUITests */,
 				B699E1221ED387B80023D378 /* Products */,
+				0459D44B1CB349654DA570E2 /* Pods */,
+				4A2E34B3088918688F093132 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +157,12 @@
 			children = (
 				B699E1241ED387B80023D378 /* AppDelegate.swift */,
 				B699E1261ED387B80023D378 /* ViewController.swift */,
+				B68EBF511ED4179C00AFA084 /* SignInViewController.swift */,
 				B699E1281ED387B80023D378 /* Main.storyboard */,
 				B699E12B1ED387B80023D378 /* Assets.xcassets */,
 				B699E12D1ED387B80023D378 /* LaunchScreen.storyboard */,
 				B699E1301ED387B80023D378 /* Info.plist */,
+				B68EBF4A1ED4169300AFA084 /* Utilities */,
 			);
 			path = InVisionSwift;
 			sourceTree = "<group>";
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699E1491ED387B80023D378 /* Build configuration list for PBXNativeTarget "InVisionSwift" */;
 			buildPhases = (
+				530FD0DA879D77C6E9C4A219 /* [CP] Check Pods Manifest.lock */,
 				B699E11D1ED387B80023D378 /* Sources */,
 				B699E11E1ED387B80023D378 /* Frameworks */,
 				B699E11F1ED387B80023D378 /* Resources */,
+				6A24658534FC3C1F837A3ACA /* [CP] Embed Pods Frameworks */,
+				1B5C178FBC02329867F4914A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699E14C1ED387B80023D378 /* Build configuration list for PBXNativeTarget "InVisionSwiftTests" */;
 			buildPhases = (
+				2669F10E5E2AE9016D830959 /* [CP] Check Pods Manifest.lock */,
 				B699E1311ED387B80023D378 /* Sources */,
 				B699E1321ED387B80023D378 /* Frameworks */,
 				B699E1331ED387B80023D378 /* Resources */,
+				1E6F607F8C34CB39F1BF0E36 /* [CP] Embed Pods Frameworks */,
+				ABA63B81596B034F6F32C243 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699E14F1ED387B80023D378 /* Build configuration list for PBXNativeTarget "InVisionSwiftUITests" */;
 			buildPhases = (
+				F2BABB91E9595EDB8C2A2868 /* [CP] Check Pods Manifest.lock */,
 				B699E13C1ED387B80023D378 /* Sources */,
 				B699E13D1ED387B80023D378 /* Frameworks */,
 				B699E13E1ED387B80023D378 /* Resources */,
+				670A6D23421F77BF0220146D /* [CP] Embed Pods Frameworks */,
+				6495F7E36C33F41695A98D53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +323,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B5C178FBC02329867F4914A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVisionSwift/Pods-InVisionSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6F607F8C34CB39F1BF0E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVisionSwiftTests/Pods-InVisionSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2669F10E5E2AE9016D830959 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		530FD0DA879D77C6E9C4A219 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6495F7E36C33F41695A98D53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVisionSwiftUITests/Pods-InVisionSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670A6D23421F77BF0220146D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVisionSwiftUITests/Pods-InVisionSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A24658534FC3C1F837A3ACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVisionSwift/Pods-InVisionSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA63B81596B034F6F32C243 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InVisionSwiftTests/Pods-InVisionSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2BABB91E9595EDB8C2A2868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B699E11D1ED387B80023D378 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68EBF501ED416A300AFA084 /* DashboardTransitionAnimator.swift in Sources */,
 				B699E1271ED387B80023D378 /* ViewController.swift in Sources */,
+				B68EBF521ED4179C00AFA084 /* SignInViewController.swift in Sources */,
+				B68EBF4E1ED416A300AFA084 /* ConnectionManager.swift in Sources */,
+				B68EBF4F1ED416A300AFA084 /* Utilities.swift in Sources */,
 				B699E1251ED387B80023D378 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,9 +623,11 @@
 		};
 		B699E14A1ED387B80023D378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D31B8F39243EEC0256554E /* Pods-InVisionSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InVisionSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mm.InVisionSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +637,11 @@
 		};
 		B699E14B1ED387B80023D378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE1FB8B7249DEE7B51836E5 /* Pods-InVisionSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InVisionSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mm.InVisionSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +651,7 @@
 		};
 		B699E14D1ED387B80023D378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C761A9D2C72E2E1B349654 /* Pods-InVisionSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +666,7 @@
 		};
 		B699E14E1ED387B80023D378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFAC98494ECBD1434249A65 /* Pods-InVisionSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +681,7 @@
 		};
 		B699E1501ED387B80023D378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0797CFFFC41CF8767315BF91 /* Pods-InVisionSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InVisionSwiftUITests/Info.plist;
@@ -477,6 +695,7 @@
 		};
 		B699E1511ED387B80023D378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6414F686A9A898A9DFF6A9CB /* Pods-InVisionSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InVisionSwiftUITests/Info.plist;
@@ -507,6 +726,7 @@
 				B699E14B1ED387B80023D378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B699E14C1ED387B80023D378 /* Build configuration list for PBXNativeTarget "InVisionSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +735,7 @@
 				B699E14E1ED387B80023D378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B699E14F1ED387B80023D378 /* Build configuration list for PBXNativeTarget "InVisionSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +744,7 @@
 				B699E1511ED387B80023D378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

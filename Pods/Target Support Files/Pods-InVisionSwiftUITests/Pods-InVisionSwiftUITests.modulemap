@@ -1,0 +1,6 @@
+framework module Pods_InVisionSwiftUITests {
+  umbrella header "Pods-InVisionSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
