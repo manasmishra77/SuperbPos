@@ -14,6 +14,7 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var passwordImageView: UIImageView!
     @IBOutlet weak var userNameImageView: UIImageView!
     @IBOutlet weak var userName: UITextField!
+     @IBOutlet weak var loginButton: UIButton!
     
     var validUserName = false
     var validPassword = false
@@ -24,8 +25,10 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
         // Do any additional setup after loading the view.
         password.delegate = self
         userName.delegate = self
-        passwordImageView.adoptCircularShape()
-        userNameImageView.adoptCircularShape()
+        userName.attributedPlaceholder = NSAttributedString(string: "Username", attributes: [NSForegroundColorAttributeName : UIColor.gray])
+        password.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSForegroundColorAttributeName : UIColor.gray])
+        
+        loginButton.layer.cornerRadius = 25.0
         
     }
 
@@ -36,9 +39,9 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
 
     func textFieldDidEndEditing(_ textField: UITextField) {
         view.endEditing(true)
-        if !(textField.text?.isEmpty){
+        if !((textField.text?.isEmpty)!){
             if textField.tag == 101{
-                if password.text?.characters.count > 4{
+                if (password.text?.characters.count)! > 4{
                     validPassword = true
                 }else{
                     let vc = Utilities.alertViewController(title: "Enter valid password", msg: "")
@@ -53,6 +56,7 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textFieldDidEndEditing(textField)
+        return true
     }
     func textFieldShouldClear(_ textField: UITextField) -> Bool {
         validUserName = false
@@ -76,6 +80,13 @@ class SignInViewController: UIViewController,UITextFieldDelegate {
     @IBAction func contactUs(_ sender: UIButton) {
     }
     @IBAction func onHelpButton(_ sender: Any) {
+        if !((userName.text?.isEmpty)!){
+            let vc  = storyboard?.instantiateViewController(withIdentifier: "ForgotPasswordViewController")
+            present(vc!, animated: true, completion: nil)
+        }else{
+            Utilities.alertBubble("Text input can not be empty", view: view)
+        }
+
     }
 
 }

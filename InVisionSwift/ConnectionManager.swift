@@ -8,7 +8,7 @@
 
 import UIKit
 import MBProgressHUD
-
+/*
 class ConnectionManager: NSObject
 {
     class func get(_ uri: String, showProgressView: Bool = false, parameter: [String: AnyObject]?, completionHandler: @escaping (_ code: Int, _ response: AnyObject) -> ())
@@ -193,3 +193,4 @@ class ConnectionManager: NSObject
     
     
 }
+ */
